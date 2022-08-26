@@ -1,0 +1,49 @@
+.Navbar{
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    transition: 0.5s;
+    font-family: roboto;
+}
+
+.Navbar h3{
+    font-size: 1.5em!important;
+    text-shadow: none!important;
+}
+
+.Navbar .container{
+    position: relative;
+}
+
+.Navbar .links{
+    top: 3.3em;
+    right: 4em;
+    width: 300px;
+    max-width: 100%;
+    position: absolute;
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+.Navbar .links a{
+    color: #333;
+    font-size: 0.8em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.Navbar .links a:hover{
+    color: #fff;
+    background: #333;
+}
+
+
+.Navbar .harmburger{
+    cursor: pointer;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

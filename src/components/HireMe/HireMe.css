@@ -1,0 +1,13 @@
+.HireMe .HomeContainer{
+    z-index: 888;
+}
+
+textarea{
+    border: none;
+    width: 100%;
+}
+
+.HireMe .btn{
+    border: none;
+    border-radius: 0;
+}

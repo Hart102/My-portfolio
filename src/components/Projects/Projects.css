@@ -1,0 +1,38 @@
+.Projects{
+    overflow-x: hidden;
+}
+
+.Projects img{
+    height: 25vh;
+}
+
+.Projects .row{
+    position: relative;
+}
+
+.fullImg{
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.closingTab{
+    top: 1em;
+    right: 3em;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fullImg img{
+    width: 90%;
+    max-width: 500px;
+    height: 30vh;
+}

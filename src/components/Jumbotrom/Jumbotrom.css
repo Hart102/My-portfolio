@@ -1,0 +1,32 @@
+.jumbotrom{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    max-height: 300px;
+    color: #e0e0e0;
+}
+
+.jumbotrom h3{
+    line-height: 1;
+    font-family: 'Roboto';
+    font-size: 2.3em!important;
+}
+
+.jumbotrom p{
+    line-height: 1;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    font-weight: 200 !important;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+

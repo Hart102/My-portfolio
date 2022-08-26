@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto';
+}
+
+body{
+    background: #e0e0e0;
+    background: #fff;
+}
+
+/* HOMECONTAINER STYLING  */
+.HomeContainer{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+/* GENERAL HEADING TAG STYLING  */
+h1, h3{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    font-family: Cataneo BT;
+    text-shadow: 1px 1px 2px  #999;
+}
+
+/* GENERAL P TAG STYLING  */
+p{
+    color: #333;
+    margin: 0;
+    font-size: 0.8em;
+    font-family: roboto;
+}
+
+/* GENERAL COL STYLING */
+.col-md-4{
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* FOOTER STYLING  */
+.Footer{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* HIRE ME BTN STYLING  */
+.hireMeBtn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    position: fixed;
+    top: 80%;
+    right: 2em;
+    z-index: 1000;
+}
+
+
+
+
+
+/* HOMECONTAINER STYLING MEDIA QUERY */
+@media(max-width: 864px){
+    .HomeContainer{
+        width: 100%;
+    }
+
+    /* FOOTER STYLING  */
+    .Footer{
+        letter-spacing: 0;
+    }
+}
+
+@media(max-width: 463px){
+    .Footer span{
+        display: flex;
+        flex-direction: column;
+    }
+}
